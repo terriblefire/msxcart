@@ -1,0 +1,50 @@
+# Copyright (C) 2016-2017, Stephen J. Leary
+# All rights reserved.
+#
+# This file is part of TF530 (Terrible Fire 030 Accelerator)
+#
+# TF530 is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# TF530 is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with TF530. If not, see <http://www.gnu.org/licenses/>.
+
+NET "EXSLTSL"      LOC="23";
+NET "M1"       LOC="20";
+NET "RESET"      LOC="33";
+NET "RFSH"      LOC="22";
+NET "A<12>"      LOC="8";
+NET "A<13>"      LOC="6";
+NET "A<14>"      LOC="7";
+NET "A<15>"      LOC="5";
+NET "BDIR"      LOC="21";
+NET "D<0>"      LOC="36";
+NET "D<1>"      LOC="34";
+NET "D<2>"      LOC="32";
+NET "D<3>"      LOC="31";
+NET "D<4>"      LOC="30";
+NET "D<5>"      LOC="29";
+NET "D<6>"      LOC="2";
+NET "D<7>"      LOC="3";
+NET "IORQ"      LOC="13";
+NET "MREQ"      LOC="19";
+NET "RD"      LOC="16";
+NET "ROMA<12>"      LOC="37";
+NET "ROMA<13>"      LOC="42";
+NET "ROMA<14>"      LOC="44";
+NET "ROMA<15>"      LOC="38";
+NET "ROMA<16>"      LOC="39";
+NET "ROMA<17>"      LOC="43";
+NET "ROMA<18>"      LOC="40";
+NET "ROMOE"      LOC="41";
+NET "SLOTCLK"      LOC="1";
+NET "SW<0>"      LOC="28";
+NET "SW<1>"      LOC="27";
+NET "WR"      LOC="18";
