@@ -8007,13 +8007,9 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0093.pdf</description>
 <contactref element="IC7" pad="17"/>
 <contactref element="CN1" pad="P35"/>
 <wire x1="17.2974" y1="41.656" x2="18.8468" y2="40.1066" width="0.2032" layer="16"/>
-<wire x1="18.8722" y1="30.1018" x2="18.8722" y2="13.2588" width="0.2032" layer="16"/>
-<wire x1="18.8722" y1="13.2588" x2="19.812" y2="12.319" width="0.2032" layer="16"/>
+<wire x1="18.8468" y1="13.2842" x2="19.1643" y2="12.9667" width="0.2032" layer="16"/>
+<wire x1="19.1643" y1="12.9667" x2="19.812" y2="12.319" width="0.2032" layer="16"/>
 <wire x1="19.812" y1="12.319" x2="19.812" y2="5.5118" width="0.2032" layer="16"/>
-<wire x1="18.8722" y1="30.1018" x2="19.1742" y2="30.4038" width="0.2032" layer="16"/>
-<via x="19.1742" y="30.4038" extent="1-16" drill="0.35"/>
-<wire x1="19.1742" y1="30.4038" x2="18.8468" y2="30.7312" width="0.2032" layer="16"/>
-<wire x1="18.8468" y1="30.7312" x2="18.8468" y2="40.1066" width="0.2032" layer="16"/>
 <wire x1="17.2974" y1="41.656" x2="16.0528" y2="40.4114" width="0.2032" layer="1"/>
 <wire x1="13.8176" y1="40.4114" x2="11.9888" y2="42.2402" width="0.2032" layer="1"/>
 <wire x1="11.9888" y1="42.2402" x2="11.9888" y2="45.4406" width="0.2032" layer="1"/>
@@ -8025,6 +8021,7 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0093.pdf</description>
 <wire x1="53.213" y1="37.9476" x2="52.184" y2="36.9186" width="0.2032" layer="1"/>
 <wire x1="40.9956" y1="51.1302" x2="53.213" y2="38.9128" width="0.2032" layer="1"/>
 <wire x1="52.184" y1="36.9186" x2="50.4754" y2="36.9186" width="0.2032" layer="1"/>
+<wire x1="18.8468" y1="40.1066" x2="18.8468" y2="13.2842" width="0.2032" layer="16"/>
 </signal>
 <signal name="D2">
 <contactref element="IC7" pad="15"/>

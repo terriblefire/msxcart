@@ -1,13 +1,13 @@
-PROJECT:=tfmsx
-BOARDS:=$(PROJECT)r0
+PROJECT:=msxcart
+BOARDS:=$(PROJECT)r1
 .PHONY: $(BOARDS)
-FOLDER:=tfmsx_`date +"%Y_%m_%d"`
+FOLDER:=$(PROJECT)_`date +"%Y_%m_%d"`
 all: clean
 	rm -rf ./tf*_*
 	mkdir ./$(FOLDER)
-	@- $(foreach BOARD,$(BOARDS), make -C $(BOARD); \
-	cp $(BOARD)/*.jed ./$(FOLDER);)
-	zip $(FOLDER)_alpha.zip ./$(FOLDER)/*
+	@- $(foreach BOARD,$(BOARDS), cd $(BOARDS) ; make ; \
+	cp *.jed ../$(FOLDER);)
+	zip $(FOLDER).zip ./$(FOLDER)/*
 	rm -rf $(FOLDER)
 clean: 
 	@- $(foreach BOARD,$(BOARDS), make -C $(BOARD) clean;)

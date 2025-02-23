@@ -1,0 +1,31 @@
+name: Build
+run-name: ${{ github.actor }} 🚀
+on: [push]
+jobs:
+  Build-Firmware:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
+      - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
+      - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
+      - name: Check out repository code
+        uses: actions/checkout@v4
+      - name: Set environment variables
+        id: vars
+        run: |
+          echo "sha_short=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
+          echo "ver_short=$(date +%Y_%m_%d)_$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
+      - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
+      - run: echo "🖥️ The workflow is now ready to build your code on the runner."
+      - name: Build the Firmware
+        uses: addnab/docker-run-action@v3
+        with:
+          image: terriblefire78/xilinx:v1
+          options: -v ${{ github.workspace }}:/host --workdir /host
+          run: 
+            git config --global --add safe.directory /host && make -C boards
+      - name: Save Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: pc060ha.zip
+          path: boards/mscart_*.zip
