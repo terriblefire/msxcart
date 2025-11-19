@@ -1,0 +1,45 @@
+name: Build CPLD Firmware
+
+on:
+  push:
+    branches: [ develop, main ]
+    paths:
+      - 'rtl/**'
+      - 'boards/**'
+  pull_request:
+    branches: [ develop, main ]
+    paths:
+      - 'rtl/**'
+      - 'boards/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Build CPLD firmware
+      run: |
+        cd boards
+        GITVERSION=$(git rev-parse --short HEAD)
+        docker run --rm --platform linux/amd64 -v $PWD/..:/host -w /host/boards -e GITVERSION=$GITVERSION terriblefire78/xilinx:v1 bash -c "git config --global --add safe.directory /host && make"
+
+    - name: Upload firmware artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: msxcart-firmware
+        path: boards/*.zip
+        retention-days: 90
+
+    - name: Display build info
+      run: |
+        echo "CPLD firmware build completed"
+        ls -lh boards/*.zip

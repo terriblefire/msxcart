@@ -20244,191 +20244,6 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="switch-dil" urn="urn:adsk.eagle:library:375">
-<description>&lt;b&gt;DIL Switches and Code Switches&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="CTS-219-02" urn="urn:adsk.eagle:footprint:27193/1" library_version="2">
-<description>&lt;b&gt;Surface Mount DIP Switch Series 219 SMT&lt;/b&gt;&lt;p&gt;
-CTS Electronic Components&lt;br&gt;
-Sourc: www.ctscorp.com</description>
-<wire x1="-3.175" y1="3.225" x2="-2.62" y2="3.225" width="0.2032" layer="21"/>
-<wire x1="-3.175" y1="-3.225" x2="-3.175" y2="3.225" width="0.2032" layer="21"/>
-<wire x1="-2.62" y1="-3.225" x2="-1.925" y2="-3.225" width="0.2032" layer="21"/>
-<wire x1="-1.925" y1="-3.225" x2="-3.175" y2="-3.225" width="0.2032" layer="21"/>
-<wire x1="-2.02" y1="2" x2="-0.52" y2="2" width="0.2032" layer="21"/>
-<wire x1="-0.52" y1="2" x2="-0.52" y2="-2" width="0.2032" layer="21"/>
-<wire x1="-0.52" y1="-2" x2="-2.02" y2="-2" width="0.2032" layer="21"/>
-<wire x1="-2.02" y1="-2" x2="-2.02" y2="2" width="0.2032" layer="21"/>
-<wire x1="-3.15" y1="-2" x2="-1.925" y2="-3.225" width="0.2032" layer="21"/>
-<wire x1="3.15" y1="-3.225" x2="-3.175" y2="-3.225" width="0.2032" layer="51"/>
-<wire x1="3.15" y1="3.225" x2="3.15" y2="-3.225" width="0.2032" layer="21"/>
-<wire x1="3.15" y1="-3.225" x2="2.595" y2="-3.225" width="0.2032" layer="21"/>
-<wire x1="2.595" y1="3.225" x2="3.15" y2="3.225" width="0.2032" layer="21"/>
-<wire x1="-3.175" y1="3.225" x2="3.15" y2="3.225" width="0.2032" layer="51"/>
-<wire x1="0.055" y1="3.225" x2="-0.08" y2="3.225" width="0.2032" layer="21"/>
-<wire x1="-0.08" y1="-3.225" x2="0.055" y2="-3.225" width="0.2032" layer="21"/>
-<wire x1="0.52" y1="2" x2="2.02" y2="2" width="0.2032" layer="21"/>
-<wire x1="2.02" y1="2" x2="2.02" y2="-2" width="0.2032" layer="21"/>
-<wire x1="2.02" y1="-2" x2="0.52" y2="-2" width="0.2032" layer="21"/>
-<wire x1="0.52" y1="-2" x2="0.52" y2="2" width="0.2032" layer="21"/>
-<smd name="1" x="-1.27" y="-4.3" dx="1.13" dy="2.44" layer="1"/>
-<smd name="2" x="1.27" y="-4.3" dx="1.13" dy="2.44" layer="1"/>
-<smd name="3" x="1.27" y="4.3" dx="1.13" dy="2.44" layer="1" rot="R180"/>
-<smd name="4" x="-1.27" y="4.3" dx="1.13" dy="2.44" layer="1" rot="R180"/>
-<text x="-4.04" y="-2.5" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="-1.77" y="2.275" size="0.6096" layer="21">ON</text>
-<text x="-1.47" y="-2.85" size="0.6096" layer="21">1</text>
-<text x="5.04" y="-3" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<text x="1.07" y="-2.85" size="0.6096" layer="21">2</text>
-<rectangle x1="-2.02" y1="-4" x2="-0.52" y2="-3.25" layer="51" rot="R180"/>
-<rectangle x1="-2.02" y1="-2" x2="-0.52" y2="-0.5" layer="21"/>
-<rectangle x1="0.52" y1="-4" x2="2.02" y2="-3.25" layer="51" rot="R180"/>
-<rectangle x1="0.52" y1="-2" x2="2.02" y2="-0.5" layer="21"/>
-<rectangle x1="-2.02" y1="3.25" x2="-0.52" y2="4" layer="51"/>
-<rectangle x1="-1.52" y1="4" x2="-1.02" y2="4.95" layer="51" rot="R180"/>
-<rectangle x1="0.52" y1="3.25" x2="2.02" y2="4" layer="51"/>
-<rectangle x1="1.02" y1="4" x2="1.52" y2="4.95" layer="51" rot="R180"/>
-<rectangle x1="-1.52" y1="-4.95" x2="-1.02" y2="-4" layer="51"/>
-<rectangle x1="1.02" y1="-4.95" x2="1.52" y2="-4" layer="51"/>
-</package>
-<package name="CTS-219-02J" urn="urn:adsk.eagle:footprint:27194/1" library_version="2">
-<description>&lt;b&gt;Surface Mount DIP Switch Series 219 SMT "J" Bend&lt;/b&gt;&lt;p&gt;
-CTS Electronic Components&lt;br&gt;
-Sourc: www.ctscorp.com</description>
-<wire x1="-3.175" y1="3.225" x2="-2.62" y2="3.225" width="0.2032" layer="21"/>
-<wire x1="-3.175" y1="-3.225" x2="-3.175" y2="3.225" width="0.2032" layer="21"/>
-<wire x1="-2.62" y1="-3.225" x2="-1.925" y2="-3.225" width="0.2032" layer="21"/>
-<wire x1="-1.925" y1="-3.225" x2="-3.175" y2="-3.225" width="0.2032" layer="21"/>
-<wire x1="-2.02" y1="2" x2="-0.52" y2="2" width="0.2032" layer="21"/>
-<wire x1="-0.52" y1="2" x2="-0.52" y2="-2" width="0.2032" layer="21"/>
-<wire x1="-0.52" y1="-2" x2="-2.02" y2="-2" width="0.2032" layer="21"/>
-<wire x1="-2.02" y1="-2" x2="-2.02" y2="2" width="0.2032" layer="21"/>
-<wire x1="-3.15" y1="-2" x2="-1.925" y2="-3.225" width="0.2032" layer="21"/>
-<wire x1="3.15" y1="-3.225" x2="-3.175" y2="-3.225" width="0.2032" layer="51"/>
-<wire x1="3.15" y1="3.225" x2="3.15" y2="-3.225" width="0.2032" layer="21"/>
-<wire x1="3.15" y1="-3.225" x2="2.595" y2="-3.225" width="0.2032" layer="21"/>
-<wire x1="2.595" y1="3.225" x2="3.15" y2="3.225" width="0.2032" layer="21"/>
-<wire x1="-3.175" y1="3.225" x2="3.15" y2="3.225" width="0.2032" layer="51"/>
-<wire x1="0.055" y1="3.225" x2="-0.08" y2="3.225" width="0.2032" layer="21"/>
-<wire x1="-0.08" y1="-3.225" x2="0.055" y2="-3.225" width="0.2032" layer="21"/>
-<wire x1="0.52" y1="2" x2="2.02" y2="2" width="0.2032" layer="21"/>
-<wire x1="2.02" y1="2" x2="2.02" y2="-2" width="0.2032" layer="21"/>
-<wire x1="2.02" y1="-2" x2="0.52" y2="-2" width="0.2032" layer="21"/>
-<wire x1="0.52" y1="-2" x2="0.52" y2="2" width="0.2032" layer="21"/>
-<smd name="1" x="-1.27" y="-3.215" dx="1.13" dy="2.44" layer="1"/>
-<smd name="2" x="1.27" y="-3.215" dx="1.13" dy="2.44" layer="1"/>
-<smd name="3" x="1.27" y="3.215" dx="1.13" dy="2.44" layer="1" rot="R180"/>
-<smd name="4" x="-1.27" y="3.215" dx="1.13" dy="2.44" layer="1" rot="R180"/>
-<text x="-4.04" y="-2.5" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="-1.77" y="2.275" size="0.6096" layer="21">ON</text>
-<text x="-1.47" y="-2.85" size="0.6096" layer="21">1</text>
-<text x="5.04" y="-3" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<text x="1.07" y="-2.85" size="0.6096" layer="21">2</text>
-<rectangle x1="-2.02" y1="-4" x2="-0.52" y2="-3.25" layer="51" rot="R180"/>
-<rectangle x1="-2.02" y1="-2" x2="-0.52" y2="-0.5" layer="21"/>
-<rectangle x1="0.52" y1="-4" x2="2.02" y2="-3.25" layer="51" rot="R180"/>
-<rectangle x1="0.52" y1="-2" x2="2.02" y2="-0.5" layer="21"/>
-<rectangle x1="-2.02" y1="3.25" x2="-0.52" y2="4" layer="51"/>
-<rectangle x1="0.52" y1="3.25" x2="2.02" y2="4" layer="51"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="CTS-219-02" urn="urn:adsk.eagle:package:27284/1" type="box" library_version="2">
-<description>Surface Mount DIP Switch Series 219 SMT
-CTS Electronic Components
-Sourc: www.ctscorp.com</description>
-<packageinstances>
-<packageinstance name="CTS-219-02"/>
-</packageinstances>
-</package3d>
-<package3d name="CTS-219-02J" urn="urn:adsk.eagle:package:27281/1" type="box" library_version="2">
-<description>Surface Mount DIP Switch Series 219 SMT "J" Bend
-CTS Electronic Components
-Sourc: www.ctscorp.com</description>
-<packageinstances>
-<packageinstance name="CTS-219-02J"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="DIP02" urn="urn:adsk.eagle:symbol:27093/1" library_version="2">
-<wire x1="-1.905" y1="5.08" x2="-1.905" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="-1.905" y1="5.08" x2="4.445" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="4.445" y1="-5.08" x2="4.445" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="4.445" y1="-5.08" x2="-1.905" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="0.508" y1="-2.54" x2="-0.508" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-0.508" y1="2.54" x2="0.508" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="0.508" y1="2.54" x2="0.508" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-0.508" y1="-2.54" x2="-0.508" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="3.048" y1="-2.54" x2="2.032" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="2.032" y1="2.54" x2="3.048" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="3.048" y1="2.54" x2="3.048" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="2.032" y1="-2.54" x2="2.032" y2="2.54" width="0.1524" layer="94"/>
-<text x="-2.54" y="-5.08" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<text x="6.985" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<text x="-0.254" y="-4.064" size="0.9906" layer="94" ratio="14">1</text>
-<text x="2.159" y="-4.064" size="0.9906" layer="94" ratio="14">2</text>
-<text x="-0.762" y="3.048" size="0.9906" layer="94" ratio="14">ON</text>
-<rectangle x1="-0.254" y1="-2.286" x2="0.254" y2="0" layer="94"/>
-<rectangle x1="2.286" y1="-2.286" x2="2.794" y2="0" layer="94"/>
-<pin name="3" x="2.54" y="7.62" visible="pad" length="short" direction="pas" rot="R270"/>
-<pin name="4" x="0" y="7.62" visible="pad" length="short" direction="pas" rot="R270"/>
-<pin name="1" x="0" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="2" x="2.54" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="219-02*" urn="urn:adsk.eagle:component:27374/1" prefix="S" library_version="2">
-<description>&lt;b&gt;Surface Mount DIP Switch Series 219 SMT&lt;/b&gt;&lt;p&gt;
-CTS Electronic Components&lt;br&gt;
-Sourc: www.ctscorp.com</description>
-<gates>
-<gate name="G$1" symbol="DIP02" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CTS-219-02">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:27284/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="J" package="CTS-219-02J">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:27281/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="Amiga">
 <packages>
 <package name="MSX_CART">
@@ -20799,6 +20614,97 @@ Sourc: www.ctscorp.com</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="jumper" urn="urn:adsk.eagle:library:252">
+<description>&lt;b&gt;Jumpers&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="JP2Q" urn="urn:adsk.eagle:footprint:15392/1" library_version="2">
+<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
+<wire x1="-2.54" y1="-2.159" x2="-2.54" y2="2.159" width="0.1524" layer="21"/>
+<wire x1="-0.381" y1="2.54" x2="0" y2="2.159" width="0.1524" layer="21"/>
+<wire x1="0" y1="2.159" x2="0.381" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="0.381" y1="2.54" x2="2.159" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="2.159" x2="2.159" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="2.159" x2="2.54" y2="-2.159" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-2.159" x2="2.159" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="2.159" y1="-2.54" x2="0.381" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="0" y1="-2.159" x2="0.381" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="0" y1="-2.159" x2="-0.381" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="2.159" x2="-2.159" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-2.159" y1="2.54" x2="-0.381" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-2.159" x2="-2.159" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-2.159" y1="-2.54" x2="-0.381" y2="-2.54" width="0.1524" layer="21"/>
+<pad name="1" x="-1.27" y="-1.27" drill="0.9144" shape="octagon"/>
+<pad name="2" x="-1.27" y="1.27" drill="0.9144" shape="octagon"/>
+<pad name="3" x="1.27" y="-1.27" drill="0.9144" shape="octagon"/>
+<pad name="4" x="1.27" y="1.27" drill="0.9144" shape="octagon"/>
+<text x="-1.778" y="-4.191" size="1.27" layer="21" ratio="10">1</text>
+<text x="0.762" y="-4.191" size="1.27" layer="21" ratio="10">2</text>
+<text x="-2.54" y="3.048" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="4.445" y="-2.54" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<rectangle x1="-1.5748" y1="0.9652" x2="-0.9652" y2="1.5748" layer="51"/>
+<rectangle x1="0.9652" y1="0.9652" x2="1.5748" y2="1.5748" layer="51"/>
+<rectangle x1="0.9652" y1="-1.5748" x2="1.5748" y2="-0.9652" layer="51"/>
+<rectangle x1="-1.5748" y1="-1.5748" x2="-0.9652" y2="-0.9652" layer="51"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="JP2Q" urn="urn:adsk.eagle:package:15450/1" type="box" library_version="2">
+<description>JUMPER</description>
+<packageinstances>
+<packageinstance name="JP2Q"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="J2" urn="urn:adsk.eagle:symbol:15405/1" library_version="2">
+<wire x1="0" y1="2.54" x2="0" y2="3.81" width="0.4064" layer="94"/>
+<wire x1="0" y1="3.81" x2="0" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-3.81" width="0.4064" layer="94"/>
+<wire x1="0" y1="-3.81" x2="0" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="3.81" width="0.4064" layer="94"/>
+<wire x1="2.54" y1="3.81" x2="2.54" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="-3.81" width="0.4064" layer="94"/>
+<wire x1="2.54" y1="-3.81" x2="2.54" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="5.08" x2="4.445" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="4.445" y1="5.08" x2="4.445" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="4.445" y1="-5.08" x2="-1.905" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="-1.905" y1="-5.08" x2="-1.905" y2="5.08" width="0.4064" layer="94"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="6.985" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="1" x="0" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="2" x="0" y="7.62" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="3" x="2.54" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="4" x="2.54" y="7.62" visible="pad" length="short" direction="pas" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="JP2Q" urn="urn:adsk.eagle:component:15478/2" prefix="JP" uservalue="yes" library_version="2">
+<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
+<gates>
+<gate name="B1" symbol="J2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="JP2Q">
+<connects>
+<connect gate="B1" pin="1" pad="1"/>
+<connect gate="B1" pin="2" pad="2"/>
+<connect gate="B1" pin="3" pad="3"/>
+<connect gate="B1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15450/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -20810,7 +20716,7 @@ Sourc: www.ctscorp.com</description>
 </class>
 </classes>
 <parts>
-<part name="MUXCPLD" library="xilinx-xc9" library_urn="urn:adsk.eagle:library:416" deviceset="XC9536_44VQ" device="" package3d_urn="urn:adsk.eagle:package:19187/1"/>
+<part name="CPLD" library="xilinx-xc9" library_urn="urn:adsk.eagle:library:416" deviceset="XC9536_44VQ" device="" package3d_urn="urn:adsk.eagle:package:19187/1" value="XC9536XL-10VQ44C"/>
 <part name="C16" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="C" device="C0603" package3d_urn="urn:adsk.eagle:package:13262/1" value="1uF"/>
 <part name="IC8" library="lm1117" deviceset="LM1117MPX-*" device="" technology="3.3"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -20821,7 +20727,6 @@ Sourc: www.ctscorp.com</description>
 <part name="PWR" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML0805" package3d_urn="urn:adsk.eagle:package:15830/1" value="LED"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="IC7" library="SamacSys_Parts" deviceset="AT27C020-55JU" device="PLCCS32"/>
-<part name="S2" library="switch-dil" library_urn="urn:adsk.eagle:library:375" deviceset="219-02*" device="" package3d_urn="urn:adsk.eagle:package:27284/1"/>
 <part name="CN1" library="Amiga" deviceset="MSX_CART" device=""/>
 <part name="C2" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="C" device="C0603" package3d_urn="urn:adsk.eagle:package:13262/1" value="1uF"/>
 <part name="C4" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="C" device="C0603" package3d_urn="urn:adsk.eagle:package:13262/1" value="1uF"/>
@@ -20831,6 +20736,7 @@ Sourc: www.ctscorp.com</description>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="C6" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="C" device="C0603" package3d_urn="urn:adsk.eagle:package:13262/1" value="10uF"/>
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="B" package3d_urn="urn:adsk.eagle:package:23421/2" value="22uF"/>
+<part name="JP1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP2Q" device="" package3d_urn="urn:adsk.eagle:package:15450/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -20842,7 +20748,7 @@ you want to use HRTMon.</text>
 <text x="180.34" y="190.5" size="1.778" layer="91">This schematic and board are published under the GNU GPLv2. </text>
 </plain>
 <instances>
-<instance part="MUXCPLD" gate="G$1" x="218.44" y="45.72" smashed="yes">
+<instance part="CPLD" gate="G$1" x="218.44" y="45.72" smashed="yes">
 <attribute name="NAME" x="213.36" y="46.99" size="1.778" layer="95"/>
 <attribute name="VALUE" x="213.36" y="43.18" size="1.778" layer="96"/>
 </instance>
@@ -20884,10 +20790,6 @@ you want to use HRTMon.</text>
 <attribute name="NAME" x="125.73" y="137.16" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="125.73" y="134.62" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="S2" gate="G$1" x="152.4" y="93.98" smashed="yes" rot="R270">
-<attribute name="NAME" x="147.32" y="96.52" size="1.778" layer="95"/>
-<attribute name="VALUE" x="147.32" y="86.995" size="1.778" layer="96"/>
-</instance>
 <instance part="CN1" gate="G$1" x="53.34" y="147.32" smashed="yes" rot="R180"/>
 <instance part="C2" gate="G$1" x="254" y="78.74" smashed="yes">
 <attribute name="NAME" x="255.524" y="79.121" size="1.778" layer="95"/>
@@ -20921,6 +20823,10 @@ you want to use HRTMon.</text>
 <attribute name="NAME" x="11.176" y="158.115" size="1.778" layer="95"/>
 <attribute name="VALUE" x="11.176" y="153.289" size="1.778" layer="96"/>
 </instance>
+<instance part="JP1" gate="B1" x="152.4" y="91.44" smashed="yes" rot="R90">
+<attribute name="NAME" x="157.48" y="88.9" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="157.48" y="98.425" size="1.778" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 <bus name="A[0..15],BDIR,D[0..7],!EXCS[1..2],!EXCS12,!EXSLTSL,GND,HALT,!INT,IORQ,!M1,MREQ,RD,!RESET,!RFSH,ROMA[12..18],ROMCE,ROMOE,SCC_AUD,SLOTCLK,SLOTCLK_CLEAN,!SLOT_INT,SW[0..1],TCK,TDI,TDINT,TDO,TMS,VCC,VCC-12V,VCC12V,VCC33,WAIT,WR">
@@ -20950,17 +20856,17 @@ you want to use HRTMon.</text>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="MUXCPLD" gate="G$1" pin="VSSIO@1"/>
+<pinref part="CPLD" gate="G$1" pin="VSSIO@1"/>
 <wire x1="167.64" y1="50.8" x2="190.5" y2="50.8" width="0.1524" layer="91"/>
 <label x="177.8" y="50.8" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="MUXCPLD" gate="G$1" pin="VSSINT@1"/>
+<pinref part="CPLD" gate="G$1" pin="VSSINT@1"/>
 <wire x1="218.44" y1="0" x2="218.44" y2="17.78" width="0.1524" layer="91"/>
 <label x="218.44" y="7.62" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="MUXCPLD" gate="G$1" pin="VSSIO@2"/>
+<pinref part="CPLD" gate="G$1" pin="VSSIO@2"/>
 <wire x1="266.7" y1="38.1" x2="246.38" y2="38.1" width="0.1524" layer="91"/>
 <label x="251.46" y="38.1" size="1.778" layer="95"/>
 </segment>
@@ -21000,16 +20906,14 @@ you want to use HRTMon.</text>
 <label x="152.4" y="104.14" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="S2" gate="G$1" pin="1"/>
 <wire x1="144.78" y1="93.98" x2="134.62" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="93.98" x2="134.62" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="93.98" x2="134.62" y2="91.44" width="0.1524" layer="91"/>
 <label x="134.62" y="93.98" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="S2" gate="G$1" pin="2"/>
-<wire x1="144.78" y1="91.44" x2="137.16" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="91.44" x2="137.16" y2="78.74" width="0.1524" layer="91"/>
-<label x="137.16" y="91.44" size="1.778" layer="95"/>
+<pinref part="JP1" gate="B1" pin="4"/>
+<pinref part="JP1" gate="B1" pin="2"/>
+<wire x1="134.62" y1="91.44" x2="134.62" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="91.44" x2="134.62" y2="91.44" width="0.1524" layer="91"/>
+<junction x="134.62" y="91.44"/>
 </segment>
 <segment>
 <pinref part="CN1" gate="G$1" pin="GND@1"/>
@@ -21080,7 +20984,7 @@ you want to use HRTMon.</text>
 </net>
 <net name="A15" class="0">
 <segment>
-<pinref part="MUXCPLD" gate="G$1" pin="PB00/08"/>
+<pinref part="CPLD" gate="G$1" pin="PB00/08"/>
 <wire x1="167.64" y1="48.26" x2="190.5" y2="48.26" width="0.1524" layer="91"/>
 <label x="177.8" y="48.26" size="1.778" layer="95"/>
 </segment>
@@ -21116,7 +21020,7 @@ you want to use HRTMon.</text>
 </net>
 <net name="A12" class="0">
 <segment>
-<pinref part="MUXCPLD" gate="G$1" pin="PB00/11"/>
+<pinref part="CPLD" gate="G$1" pin="PB00/11"/>
 <wire x1="167.64" y1="40.64" x2="190.5" y2="40.64" width="0.1524" layer="91"/>
 <label x="177.8" y="40.64" size="1.778" layer="95"/>
 </segment>
@@ -21136,6 +21040,11 @@ you want to use HRTMon.</text>
 <pinref part="CN1" gate="G$1" pin="A11"/>
 <wire x1="20.32" y1="121.92" x2="0" y2="121.92" width="0.1524" layer="91"/>
 <label x="7.62" y="121.92" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CPLD" gate="G$1" pin="PB00/12"/>
+<wire x1="205.74" y1="17.78" x2="205.74" y2="0" width="0.1524" layer="91"/>
+<label x="205.74" y="7.62" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="A5" class="0">
@@ -21188,12 +21097,12 @@ you want to use HRTMon.</text>
 </net>
 <net name="VCC33" class="0">
 <segment>
-<pinref part="MUXCPLD" gate="G$1" pin="VCCINT@1"/>
+<pinref part="CPLD" gate="G$1" pin="VCCINT@1"/>
 <wire x1="213.36" y1="0" x2="213.36" y2="17.78" width="0.1524" layer="91"/>
 <label x="213.36" y="7.62" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="MUXCPLD" gate="G$1" pin="VCCIO@1"/>
+<pinref part="CPLD" gate="G$1" pin="VCCIO@1"/>
 <wire x1="266.7" y1="40.64" x2="246.38" y2="40.64" width="0.1524" layer="91"/>
 <label x="251.46" y="40.64" size="1.778" layer="95"/>
 </segment>
@@ -21240,14 +21149,14 @@ you want to use HRTMon.</text>
 <label x="256.54" y="114.3" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="MUXCPLD" gate="G$1" pin="VCCINT/VPP"/>
+<pinref part="CPLD" gate="G$1" pin="VCCINT/VPP"/>
 <wire x1="228.6" y1="73.66" x2="228.6" y2="86.36" width="0.1524" layer="91"/>
 <label x="228.6" y="78.74" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="TMS" class="0">
 <segment>
-<pinref part="MUXCPLD" gate="G$1" pin="TMS"/>
+<pinref part="CPLD" gate="G$1" pin="TMS"/>
 <wire x1="167.64" y1="35.56" x2="190.5" y2="35.56" width="0.1524" layer="91"/>
 <label x="177.8" y="35.56" size="1.778" layer="95"/>
 </segment>
@@ -21261,7 +21170,7 @@ you want to use HRTMon.</text>
 </net>
 <net name="TCK" class="0">
 <segment>
-<pinref part="MUXCPLD" gate="G$1" pin="TCK"/>
+<pinref part="CPLD" gate="G$1" pin="TCK"/>
 <wire x1="167.64" y1="33.02" x2="190.5" y2="33.02" width="0.1524" layer="91"/>
 <label x="177.8" y="33.02" size="1.778" layer="95"/>
 </segment>
@@ -21275,7 +21184,7 @@ you want to use HRTMon.</text>
 </net>
 <net name="TDO" class="0">
 <segment>
-<pinref part="MUXCPLD" gate="G$1" pin="TDO"/>
+<pinref part="CPLD" gate="G$1" pin="TDO"/>
 <wire x1="266.7" y1="35.56" x2="246.38" y2="35.56" width="0.1524" layer="91"/>
 <label x="251.46" y="35.56" size="1.778" layer="95"/>
 </segment>
@@ -21289,7 +21198,7 @@ you want to use HRTMon.</text>
 </net>
 <net name="A13" class="0">
 <segment>
-<pinref part="MUXCPLD" gate="G$1" pin="PB00/09"/>
+<pinref part="CPLD" gate="G$1" pin="PB00/09"/>
 <wire x1="167.64" y1="45.72" x2="190.5" y2="45.72" width="0.1524" layer="91"/>
 <label x="177.8" y="45.72" size="1.778" layer="95"/>
 </segment>
@@ -21301,7 +21210,7 @@ you want to use HRTMon.</text>
 </net>
 <net name="A14" class="0">
 <segment>
-<pinref part="MUXCPLD" gate="G$1" pin="PB00/10"/>
+<pinref part="CPLD" gate="G$1" pin="PB00/10"/>
 <wire x1="167.64" y1="43.18" x2="190.5" y2="43.18" width="0.1524" layer="91"/>
 <label x="177.8" y="43.18" size="1.778" layer="95"/>
 </segment>
@@ -21385,7 +21294,7 @@ you want to use HRTMon.</text>
 <label x="7.62" y="96.52" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="MUXCPLD" gate="G$1" pin="PB00/07"/>
+<pinref part="CPLD" gate="G$1" pin="PB00/07"/>
 <wire x1="190.5" y1="53.34" x2="167.64" y2="53.34" width="0.1524" layer="91"/>
 <label x="177.8" y="53.34" size="1.778" layer="95"/>
 </segment>
@@ -21402,7 +21311,7 @@ you want to use HRTMon.</text>
 <label x="68.58" y="96.52" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="MUXCPLD" gate="G$1" pin="PB00/05"/>
+<pinref part="CPLD" gate="G$1" pin="PB00/05"/>
 <wire x1="190.5" y1="55.88" x2="167.64" y2="55.88" width="0.1524" layer="91"/>
 <label x="177.8" y="55.88" size="1.778" layer="95"/>
 </segment>
@@ -21420,7 +21329,7 @@ you want to use HRTMon.</text>
 </segment>
 <segment>
 <wire x1="246.38" y1="48.26" x2="266.7" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="MUXCPLD" gate="G$1" pin="PB01/09"/>
+<pinref part="CPLD" gate="G$1" pin="PB01/09"/>
 <label x="251.46" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -21437,7 +21346,7 @@ you want to use HRTMon.</text>
 </segment>
 <segment>
 <wire x1="246.38" y1="50.8" x2="266.7" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="MUXCPLD" gate="G$1" pin="PB01/08"/>
+<pinref part="CPLD" gate="G$1" pin="PB01/08"/>
 <label x="251.46" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -21454,7 +21363,7 @@ you want to use HRTMon.</text>
 </segment>
 <segment>
 <wire x1="266.7" y1="53.34" x2="246.38" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="MUXCPLD" gate="G$1" pin="PB01/07"/>
+<pinref part="CPLD" gate="G$1" pin="PB01/07"/>
 <label x="251.46" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -21471,7 +21380,7 @@ you want to use HRTMon.</text>
 </segment>
 <segment>
 <wire x1="246.38" y1="55.88" x2="266.7" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="MUXCPLD" gate="G$1" pin="PB01/06"/>
+<pinref part="CPLD" gate="G$1" pin="PB01/06"/>
 <label x="251.46" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -21488,7 +21397,7 @@ you want to use HRTMon.</text>
 </segment>
 <segment>
 <wire x1="231.14" y1="73.66" x2="231.14" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="MUXCPLD" gate="G$1" pin="PB01/04"/>
+<pinref part="CPLD" gate="G$1" pin="PB01/04"/>
 <label x="231.14" y="78.74" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
@@ -21504,7 +21413,7 @@ you want to use HRTMon.</text>
 <label x="68.58" y="104.14" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="MUXCPLD" gate="G$1" pin="PB01/02"/>
+<pinref part="CPLD" gate="G$1" pin="PB01/02"/>
 <wire x1="226.06" y1="73.66" x2="226.06" y2="86.36" width="0.1524" layer="91"/>
 <label x="226.06" y="78.74" size="1.778" layer="95" rot="R90"/>
 </segment>
@@ -21553,7 +21462,7 @@ you want to use HRTMon.</text>
 </segment>
 <segment>
 <wire x1="205.74" y1="73.66" x2="205.74" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="MUXCPLD" gate="G$1" pin="PB00/04"/>
+<pinref part="CPLD" gate="G$1" pin="PB00/04"/>
 <label x="205.74" y="76.2" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
@@ -21565,7 +21474,7 @@ you want to use HRTMon.</text>
 </segment>
 <segment>
 <wire x1="220.98" y1="73.66" x2="220.98" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="MUXCPLD" gate="G$1" pin="PB01/01"/>
+<pinref part="CPLD" gate="G$1" pin="PB01/01"/>
 <label x="220.98" y="76.2" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
@@ -21577,7 +21486,7 @@ you want to use HRTMon.</text>
 </segment>
 <segment>
 <wire x1="213.36" y1="73.66" x2="213.36" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="MUXCPLD" gate="G$1" pin="PB00/01"/>
+<pinref part="CPLD" gate="G$1" pin="PB00/01"/>
 <label x="213.36" y="76.2" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
@@ -21589,7 +21498,7 @@ you want to use HRTMon.</text>
 </segment>
 <segment>
 <wire x1="218.44" y1="73.66" x2="218.44" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="MUXCPLD" gate="G$1" pin="PB01/00"/>
+<pinref part="CPLD" gate="G$1" pin="PB01/00"/>
 <label x="218.44" y="76.2" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
@@ -21600,7 +21509,7 @@ you want to use HRTMon.</text>
 <label x="121.92" y="139.7" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="MUXCPLD" gate="G$1" pin="PB00/02"/>
+<pinref part="CPLD" gate="G$1" pin="PB00/02"/>
 <wire x1="208.28" y1="73.66" x2="208.28" y2="86.36" width="0.1524" layer="91"/>
 <label x="208.28" y="76.2" size="1.778" layer="95" rot="R90"/>
 </segment>
@@ -21613,7 +21522,7 @@ you want to use HRTMon.</text>
 </segment>
 <segment>
 <wire x1="215.9" y1="73.66" x2="215.9" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="MUXCPLD" gate="G$1" pin="PB00/00"/>
+<pinref part="CPLD" gate="G$1" pin="PB00/00"/>
 <label x="215.9" y="76.2" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
@@ -21645,7 +21554,7 @@ you want to use HRTMon.</text>
 <label x="68.58" y="142.24" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="MUXCPLD" gate="G$1" pin="PB01/12"/>
+<pinref part="CPLD" gate="G$1" pin="PB01/12"/>
 <wire x1="246.38" y1="33.02" x2="266.7" y2="33.02" width="0.1524" layer="91"/>
 <label x="251.46" y="33.02" size="1.778" layer="95"/>
 </segment>
@@ -21658,7 +21567,7 @@ you want to use HRTMon.</text>
 </segment>
 <segment>
 <wire x1="231.14" y1="17.78" x2="231.14" y2="0" width="0.1524" layer="91"/>
-<pinref part="MUXCPLD" gate="G$1" pin="PB01/13"/>
+<pinref part="CPLD" gate="G$1" pin="PB01/13"/>
 <label x="231.14" y="7.62" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
@@ -21676,7 +21585,7 @@ you want to use HRTMon.</text>
 <label x="68.58" y="134.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="MUXCPLD" gate="G$1" pin="PB01/14"/>
+<pinref part="CPLD" gate="G$1" pin="PB01/14"/>
 <wire x1="228.6" y1="17.78" x2="228.6" y2="0" width="0.1524" layer="91"/>
 <label x="228.6" y="7.62" size="1.778" layer="95" rot="R90"/>
 </segment>
@@ -21688,7 +21597,7 @@ you want to use HRTMon.</text>
 <label x="68.58" y="132.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="MUXCPLD" gate="G$1" pin="PB01/16"/>
+<pinref part="CPLD" gate="G$1" pin="PB01/16"/>
 <wire x1="223.52" y1="17.78" x2="223.52" y2="0" width="0.1524" layer="91"/>
 <label x="223.52" y="7.62" size="1.778" layer="95" rot="R90"/>
 </segment>
@@ -21701,7 +21610,7 @@ you want to use HRTMon.</text>
 </segment>
 <segment>
 <wire x1="215.9" y1="17.78" x2="215.9" y2="0" width="0.1524" layer="91"/>
-<pinref part="MUXCPLD" gate="G$1" pin="PB00/15"/>
+<pinref part="CPLD" gate="G$1" pin="PB00/15"/>
 <label x="215.9" y="7.62" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
@@ -21719,7 +21628,7 @@ you want to use HRTMon.</text>
 <label x="7.62" y="134.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="MUXCPLD" gate="G$1" pin="PB01/15"/>
+<pinref part="CPLD" gate="G$1" pin="PB01/15"/>
 <wire x1="226.06" y1="17.78" x2="226.06" y2="0" width="0.1524" layer="91"/>
 <label x="226.06" y="10.16" size="1.778" layer="95" rot="R90"/>
 </segment>
@@ -21731,7 +21640,7 @@ you want to use HRTMon.</text>
 <label x="7.62" y="132.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="MUXCPLD" gate="G$1" pin="PB00/13"/>
+<pinref part="CPLD" gate="G$1" pin="PB00/13"/>
 <wire x1="208.28" y1="17.78" x2="208.28" y2="0" width="0.1524" layer="91"/>
 <label x="208.28" y="7.62" size="1.778" layer="95" rot="R90"/>
 </segment>
@@ -21744,7 +21653,7 @@ you want to use HRTMon.</text>
 </segment>
 <segment>
 <wire x1="220.98" y1="17.78" x2="220.98" y2="0" width="0.1524" layer="91"/>
-<pinref part="MUXCPLD" gate="G$1" pin="PB00/16"/>
+<pinref part="CPLD" gate="G$1" pin="PB00/16"/>
 <label x="220.98" y="7.62" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
@@ -21755,7 +21664,7 @@ you want to use HRTMon.</text>
 <label x="7.62" y="127" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="MUXCPLD" gate="G$1" pin="PB01/05"/>
+<pinref part="CPLD" gate="G$1" pin="PB01/05"/>
 <wire x1="246.38" y1="58.42" x2="266.7" y2="58.42" width="0.1524" layer="91"/>
 <label x="251.46" y="58.42" size="1.778" layer="95"/>
 </segment>
@@ -21774,7 +21683,7 @@ you want to use HRTMon.</text>
 <label x="68.58" y="93.98" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="MUXCPLD" gate="G$1" pin="PB00/06"/>
+<pinref part="CPLD" gate="G$1" pin="PB00/06"/>
 <wire x1="190.5" y1="58.42" x2="167.64" y2="58.42" width="0.1524" layer="91"/>
 <label x="177.8" y="58.42" size="1.778" layer="95"/>
 </segment>
@@ -21787,7 +21696,7 @@ you want to use HRTMon.</text>
 </segment>
 <segment>
 <wire x1="210.82" y1="73.66" x2="210.82" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="MUXCPLD" gate="G$1" pin="PB00/03"/>
+<pinref part="CPLD" gate="G$1" pin="PB00/03"/>
 <label x="210.82" y="76.2" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
@@ -21799,13 +21708,13 @@ you want to use HRTMon.</text>
 </segment>
 <segment>
 <wire x1="223.52" y1="73.66" x2="223.52" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="MUXCPLD" gate="G$1" pin="PB01/03"/>
+<pinref part="CPLD" gate="G$1" pin="PB01/03"/>
 <label x="223.52" y="76.2" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="TDI" class="0">
 <segment>
-<pinref part="MUXCPLD" gate="G$1" pin="TDI"/>
+<pinref part="CPLD" gate="G$1" pin="TDI"/>
 <wire x1="190.5" y1="38.1" x2="167.64" y2="38.1" width="0.1524" layer="91"/>
 <label x="177.8" y="38.1" size="1.778" layer="95"/>
 </segment>
@@ -21819,9 +21728,9 @@ you want to use HRTMon.</text>
 </net>
 <net name="SW0" class="0">
 <segment>
-<pinref part="S2" gate="G$1" pin="4"/>
 <wire x1="160.02" y1="93.98" x2="167.64" y2="93.98" width="0.1524" layer="91"/>
 <label x="160.02" y="93.98" size="1.778" layer="95"/>
+<pinref part="JP1" gate="B1" pin="3"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
@@ -21830,15 +21739,15 @@ you want to use HRTMon.</text>
 </segment>
 <segment>
 <wire x1="246.38" y1="45.72" x2="266.7" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="MUXCPLD" gate="G$1" pin="PB01/10"/>
+<pinref part="CPLD" gate="G$1" pin="PB01/10"/>
 <label x="251.46" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SW1" class="0">
 <segment>
-<pinref part="S2" gate="G$1" pin="3"/>
 <wire x1="160.02" y1="91.44" x2="167.64" y2="91.44" width="0.1524" layer="91"/>
 <label x="160.02" y="91.44" size="1.778" layer="95"/>
+<pinref part="JP1" gate="B1" pin="1"/>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
@@ -21847,7 +21756,7 @@ you want to use HRTMon.</text>
 </segment>
 <segment>
 <wire x1="246.38" y1="43.18" x2="266.7" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="MUXCPLD" gate="G$1" pin="PB01/11"/>
+<pinref part="CPLD" gate="G$1" pin="PB01/11"/>
 <label x="251.46" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
