@@ -206,7 +206,6 @@ Copyright (C) 2021-2025 Stephen J. Leary
 ## Acknowledgments
 
 - Original design concept by Stephen J. Leary
-- Build system based on [tf536_public](https://github.com/terriblefire/tf536_public)
 - Inspired by the MSX community's dedication to preserving retro computing
 
 ## Related Projects
@@ -228,5 +227,6 @@ For questions, issues, or discussions:
 ---
 
 **Note**: This is a hardware project. Users must have appropriate skills for PCB assembly and CPLD programming. This design is provided as-is for educational and hobbyist purposes.
+
 
 
