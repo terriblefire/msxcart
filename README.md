@@ -2,7 +2,7 @@
 
 A minimalist MSX cartridge design based on the Xilinx XC9536XL CPLD, implementing a standard MegaROM mapper for bank-switched ROM cartridges.
 
-[![Build CPLD Firmware](https://github.com/USER/msxcart/workflows/Build%20CPLD%20Firmware/badge.svg)](https://github.com/USER/msxcart/actions)
+[![Build CPLD Firmware](https://github.com/terriblefire/msxcart/workflows/Build%20CPLD%20Firmware/badge.svg)](https://github.com/USER/msxcart/actions)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ---
