@@ -29,7 +29,7 @@ RISKYMSX is a modern, feature-rich MSX cartridge solution that offers significan
 | **Convenience** | Change ROMs instantly via USB | Must reprogram ROM chip |
 | **Modern MCU** | RISC-V CH32V303 | Legacy CPLD |
 | **Firmware Updates** | USB or WCH-LinkE | JTAG programmer |
-| **Mapper Support** | Konami, ASCII 8K/16K, Neo, SCC | Basic MegaROM only |
+| **Mapper Support** | Konami, ASCII 8K/16K, Neo, SCC | Konami, ASCII 8K/16K |
 | **User Experience** | Plug and play with USB drive | Requires hardware tools |
 
 **👉 For new builds, please use [RISKYMSX](https://github.com/arkadiuszmakarenko/RISKYMSX)** - it provides better functionality, easier ROM management, and a superior user experience.
@@ -227,6 +227,7 @@ For questions, issues, or discussions:
 ---
 
 **Note**: This is a hardware project. Users must have appropriate skills for PCB assembly and CPLD programming. This design is provided as-is for educational and hobbyist purposes.
+
 
 
 
