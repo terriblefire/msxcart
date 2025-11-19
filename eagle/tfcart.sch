@@ -20741,11 +20741,7 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <sheets>
 <sheet>
 <plain>
-<text x="177.8" y="114.3" size="1.778" layer="91">This is a purely optional NMI generator that 
-is used to assert IPL0-2 = 0 when the
-switch is closed. No need to populate unless
-you want to use HRTMon.</text>
-<text x="180.34" y="190.5" size="1.778" layer="91">This schematic and board are published under the GNU GPLv2. </text>
+<text x="180.34" y="190.5" size="1.778" layer="91">This schematic and board are published under the GNU GPLv3. </text>
 </plain>
 <instances>
 <instance part="CPLD" gate="G$1" x="218.44" y="45.72" smashed="yes">
@@ -21775,10 +21771,6 @@ you want to use HRTMon.</text>
 </schematic>
 </drawing>
 <compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
