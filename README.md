@@ -7,6 +7,10 @@ A minimalist MSX cartridge design based on the Xilinx XC9536XL CPLD, implementin
 
 ---
 
+## Discord
+
+https://discord.gg/aXGkKWJQ
+
 ## ⚠️ Project Status - SUPERSEDED
 
 **This project has been superseded by the RISKYMSX project** ([arkadiuszmakarenko/RISKYMSX](https://github.com/arkadiuszmakarenko/RISKYMSX)).
@@ -224,4 +228,5 @@ For questions, issues, or discussions:
 ---
 
 **Note**: This is a hardware project. Users must have appropriate skills for PCB assembly and CPLD programming. This design is provided as-is for educational and hobbyist purposes.
+
 
